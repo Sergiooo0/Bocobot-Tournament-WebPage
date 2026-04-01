@@ -8,6 +8,12 @@ hide:
 
 Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesarios para participar.
 
+### Fecha:
+- 27 de abril por la tarde
+
+### Equipos: 
+- De 1 a 4 personas
+
 <div class="card-grid">
 
 <a href="./reglas_torneo_bocobot.pdf" class="card" target="_blank">
@@ -31,3 +37,6 @@ Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesar
 </a>
 
 </div>
+
+???+ warning
+    Hay un límite de 8 equipos para participar, así que asegúrate de inscribirte lo antes posible.
