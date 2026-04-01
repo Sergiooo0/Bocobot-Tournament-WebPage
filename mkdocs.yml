@@ -1,5 +1,10 @@
 site_name: Bocobot Tournament
 site_url: https://sitename.example
+site_author: Sergio González Rodríguez
+site_description: Resources for the Bocobot Robotics Tournament
+repo_url: https://github.com/Sergiooo0/Bocobot-Tournament-WebPage
+repo_name: Bocobot Tournament WebPage
+
 
 theme:
   name: material
