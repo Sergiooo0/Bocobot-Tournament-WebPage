@@ -25,10 +25,15 @@
   transform: translateY(-4px);
 }
 
+.card:hover .card-title {
+  color: var(--md-accent-fg-color);
+}
+
 .card-title {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--md-primary-fg-color);
+  transition: color 0.2s;
 }
 
 .card-description {
