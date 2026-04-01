@@ -9,6 +9,7 @@ theme:
     - navigation.tabs
     - navigation.top  # Back to top button
     - toc.integrate  # Integrates TOC in left menu instead of right
+    #- navigation.footer
 
   palette:
     # Light mode
@@ -40,6 +41,12 @@ nav:
 
 extra:
   generator: false  # Hides "Made with MkDocs"
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sergio-gonzalez-rodriguez4/
+    - icon: fontawesome/brands/github
+      link: https://github.com/Sergiooo0
+
 
 markdown_extensions:
   - attr_list  # To add CSS classes
