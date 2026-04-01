@@ -7,7 +7,7 @@ theme:
 
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.top  # Back to top button
     - toc.integrate  # Integrates TOC in left menu instead of right
 
   palette:

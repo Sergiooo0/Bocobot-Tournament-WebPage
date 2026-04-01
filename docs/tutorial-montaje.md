@@ -1,12 +1,6 @@
 # Tutorial de Montaje
 
-Sigue esta guía para construir tu robot paso a paso.
-
-## Conexión de cables
-
-A continuación puedes ver dónde conectar cada cable:
-
-![Diagrama de conexiones](./assets/image.png)
+Aquí tienes recursos para construir tu robot paso a paso.
 
 ## Video tutorial
 
@@ -19,3 +13,9 @@ A continuación puedes ver dónde conectar cada cable:
     allowfullscreen>
   </iframe>
 </div>
+
+## Conexión de cables
+
+A continuación puedes ver dónde conectar cada cable:
+
+![Diagrama de conexiones](./assets/image.png)
