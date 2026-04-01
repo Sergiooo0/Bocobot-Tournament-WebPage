@@ -1,0 +1,52 @@
+site_name: Bocobot Tournament
+site_url: https://sitename.example
+
+theme:
+  name: material
+  language: es
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate  # Integrates TOC in left menu instead of right
+
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    # Dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+  icon:
+    logo: material/robot-industrial
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Inicio: index.md
+  - Tutorial de Montaje: tutorial-montaje.md
+
+extra:
+  generator: false  # Hides "Made with MkDocs"
+
+markdown_extensions:
+  - attr_list  # To add CSS classes
+  - md_in_html  # To use HTML inside markdown
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/custom.css

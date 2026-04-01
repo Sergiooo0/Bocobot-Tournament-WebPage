@@ -1,0 +1,58 @@
+/* Headings color */
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  color: var(--md-primary-fg-color);
+}
+
+/* Cards in grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: var(--md-code-bg-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Responsive video */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  margin: 1.5rem 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Images with rounded borders */
+.md-content img {
+  border-radius: 8px;
+}
