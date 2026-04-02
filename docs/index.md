@@ -40,3 +40,26 @@ Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesar
 
 ???+ warning
     Hay un límite de 8 equipos para participar, así que asegúrate de inscribirte lo antes posible.
+
+---
+
+## Patrocinadores
+
+Agradecemos el apoyo de las siguientes empresas que ayudan en este torneo:
+
+<div class="sponsors-grid">
+
+<a href="https://binarial.com/es/" class="sponsor-card" target="_blank">
+  <img src="./assets/binarial.png" alt="Binarial">
+</a>
+
+<a href="https://gdg.community.dev/gdg-ourense/" class="sponsor-card" target="_blank">
+  <img src="./assets/gdg1.png" alt="GDG Ourense">
+</a>
+
+<a href="https://auria.gal" class="sponsor-card" target="_blank">
+  <img src="./assets/auria.png" alt="Auria">
+</a>
+
+
+</div>
