@@ -11,6 +11,9 @@ Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesar
 ## Fecha:
 - 27 de abril por la tarde
 
+## Lugar:
+- Hall de la [ESEI](https://esei.uvigo.es/)
+
 ## Equipos: 
 - De 1 a 4 personas
 
