@@ -49,7 +49,7 @@ Agradecemos el apoyo de las siguientes empresas que ayudan en este torneo:
 </a>
 
 <a href="https://gdg.community.dev/gdg-ourense/" class="sponsor-card" target="_blank">
-  <img src="./assets/gdg1.png" alt="GDG Ourense">
+  <img src="./assets/gdg.png" alt="GDG Ourense">
 </a>
 
 <a href="https://auria.gal" class="sponsor-card" target="_blank">
