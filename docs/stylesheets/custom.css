@@ -1,7 +1,5 @@
 /* Headings color */
-.md-content h1,
-.md-content h2,
-.md-content h3 {
+.md-content h1 {
   color: var(--md-primary-fg-color);
 }
 

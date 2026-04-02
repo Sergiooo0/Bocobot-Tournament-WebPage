@@ -1,5 +1,5 @@
 site_name: Bocobot Tournament
-site_url: https://sitename.example
+site_url: https://sergiooo0.github.io/Bocobot-Tournament-WebPage/
 site_author: Sergio González Rodríguez
 site_description: Resources for the Bocobot Robotics Tournament
 repo_url: https://github.com/Sergiooo0/Bocobot-Tournament-WebPage
@@ -17,21 +17,29 @@ theme:
     #- navigation.footer
 
   palette:
-    # Light mode
-    - scheme: default
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Cambiar a modo claro
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: purple
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
 
-    # Dark mode
-    - scheme: slate
-      primary: deep purple
-      accent: cyan
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: deep purple
       toggle:
         icon: material/brightness-4
-        name: Cambiar a modo claro
+        name: Cambiar a prefencia de sistema
 
   icon:
     logo: material/robot-industrial
@@ -42,7 +50,9 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Tutorial de Montaje: tutorial-montaje.md
+  - Normas del Torneo: normas.md
+  - Guía del Robot: guia-robot.md
+  - ¡Inscríbete!: "https://forms.gle/id"  
 
 extra:
   generator: false  # Hides "Made with MkDocs"

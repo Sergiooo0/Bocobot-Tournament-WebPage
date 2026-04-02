@@ -8,30 +8,25 @@ hide:
 
 Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesarios para participar.
 
-### Fecha:
+## Fecha:
 - 27 de abril por la tarde
 
-### Equipos: 
+## Equipos: 
 - De 1 a 4 personas
 
 <div class="card-grid">
 
-<a href="./reglas_torneo_bocobot.pdf" class="card" target="_blank">
+<a href="./normas/" class="card">
   <div class="card-title">Normas del Torneo</div>
   <div class="card-description">Lee las reglas antes de participar</div>
 </a>
 
-<a href="./tutorial-montaje/" class="card">
-  <div class="card-title">Tutorial de Montaje</div>
-  <div class="card-description">Guía para construir tu robot</div>
+<a href="./guia-robot/" class="card">
+  <div class="card-title">Guía del Robot</div>
+  <div class="card-description">Montaje, programación y configuración completa</div>
 </a>
 
-<a href="https://github.com/CytronTechnologies/Robo-Pico-Kit-CircuitPython/tree/main" class="card" target="_blank">
-  <div class="card-title">Repositorio de Código</div>
-  <div class="card-description">Código base y ejemplos</div>
-</a>
-
-<a href="#" class="card">
+<a href="https://forms.gle/id" class="card" target="_blank">
   <div class="card-title">Inscripción</div>
   <div class="card-description">Registra a tu equipo</div>
 </a>
