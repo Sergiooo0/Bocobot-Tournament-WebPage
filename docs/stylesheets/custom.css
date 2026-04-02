@@ -45,7 +45,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
-  align-items: center;
+  align-items: stretch;
 }
 
 .sponsor-card {
@@ -53,12 +53,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  transition: transform 0.2s;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  min-height: 120px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .sponsor-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .sponsor-card img {
