@@ -39,7 +39,7 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-4
-        name: Cambiar a prefencia de sistema
+        name: Cambiar a preferencia de sistema
 
   icon:
     logo: material/robot-industrial
