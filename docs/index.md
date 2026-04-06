@@ -29,7 +29,7 @@ Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesar
   <div class="card-description">Montaje, programación y configuración completa</div>
 </a>
 
-<a href="https://forms.gle/id" class="card" target="_blank">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScpvvbQE-pS9H050xOW6uJyefBrO_nOn3Itc3BrAmD3Ni02DA/viewform" class="card" target="_blank">
   <div class="card-title">Inscripción</div>
   <div class="card-description">Registra a tu equipo</div>
 </a>

@@ -49,7 +49,7 @@ El robot debe seguir un circuito marcado con cinta adhesiva, evitando obstáculo
 
 ## 2. Limpieza
 
-El robot debe recoger y sacar del recinto el mayor número de objetos en el menor tiempo posible.
+El robot debe empujar y sacar del recinto el mayor número de objetos en el menor tiempo posible.
 
 ### Especificaciones del recinto
 
@@ -117,7 +117,7 @@ El robot debe recorrer una distancia a máxima velocidad y frenar con precisión
 |----------------|---------|
 | **Longitud del recorrido** | 4 metros |
 | **Zona de frenado** | Últimos 50 cm |
-| **Dimensiones zona de frenado** | 40 cm de ancho x 50 cm de largo |
+| **Dimensiones zona de frenado** | 40 cm de ancho x 50 cm de largo, marcada con cinta adhesiva |
 | **Marcado** | Línea en el centro del recinto |
 | **Pared de poliespán** | Colocada al final del recinto de frenado |
 

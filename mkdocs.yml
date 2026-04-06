@@ -52,7 +52,7 @@ nav:
   - Inicio: index.md
   - Normas del Torneo: normas.md
   - Guía del Robot: guia-robot.md
-  - ¡Inscríbete!: "https://forms.gle/id"  
+  - ¡Inscríbete!: "https://docs.google.com/forms/d/e/1FAIpQLScpvvbQE-pS9H050xOW6uJyefBrO_nOn3Itc3BrAmD3Ni02DA/viewform"  
 
 extra:
   generator: false  # Hides "Made with MkDocs"
