@@ -14,7 +14,7 @@ theme:
     - navigation.tabs
     - navigation.top  # Back to top button
     - toc.integrate  # Integrates TOC in left menu instead of right
-    #- navigation.footer
+    - navigation.footer
 
   palette:
     # Palette toggle for automatic mode

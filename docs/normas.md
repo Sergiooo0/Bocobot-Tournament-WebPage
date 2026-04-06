@@ -84,7 +84,7 @@ Los robots se enfrentan uno contra uno para empujar al rival fuera del círculo.
 | **Forma del recinto** | Circular |
 | **Diámetro** | 1 metro |
 | **Delimitación** | Cinta adhesiva |
-| **Peso máximo del robot** | Por determinar |
+| **Peso máximo del robot** | 450 gramos |
 
 ### Reglas
 

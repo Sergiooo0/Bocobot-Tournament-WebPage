@@ -43,7 +43,7 @@ Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesar
 
 ## Patrocinadores
 
-Agradecemos el apoyo de las siguientes empresas que ayudan en este torneo:
+Agradecemos el apoyo de las siguientes empresas:
 
 <div class="sponsors-grid">
 
