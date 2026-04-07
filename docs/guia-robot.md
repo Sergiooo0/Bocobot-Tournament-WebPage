@@ -61,6 +61,8 @@ Antes de poder programar tu BocoBot, necesitas instalar CircuitPython en la Rasp
     - Arrastra y suelta el archivo `.uf2` descargado en la unidad RPI-RP2
     - La Pico se reiniciará automáticamente y aparecerá como **CIRCUITPY**
 
+    ![Ubicación del botón BOOTSEL](./assets/BOOTSEL.png)
+
 3. **Verifica la instalación**:
 
     - Si ves la unidad **CIRCUITPY**, CircuitPython está correctamente instalado
