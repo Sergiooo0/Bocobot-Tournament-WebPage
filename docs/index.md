@@ -4,7 +4,14 @@ hide:
   - navigation
 ---
 
-# Torneo de Robótica Bocobot :robot:
+<div style="text-align: center; margin: 2em 0;" markdown="1">
+
+# ESEI Bocobot Tournament :robot:
+
+<p style="font-size: 1.1em; color: #888; margin-top: -0.5em;">Edición 2025-2026</p>
+
+</div>
+
 
 Bienvenido al torneo de robótica. Aquí encontrarás todos los recursos necesarios para participar.
 
