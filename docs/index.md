@@ -8,7 +8,7 @@ meta:
   - property: "og:description"
     content: "¡Monta, programa y compite con tu propio robot! ESEI Ourense, 27 de abril."
   - property: "og:image"
-    content: "https://sergiooo0.github.io/Bocobot-Tournament-WebPage/assets/bocobot.png"
+    content: "./assets/banner.png"
   - property: "og:type"
     content: "website"
 ---
