@@ -2,32 +2,38 @@
 
 El torneo consta de **5 pruebas diferentes** donde cada equipo competirá con su robot BocoBot. A continuación se detallan las reglas específicas de cada prueba.
 
+!!! info "Algunos detalles pendientes"
+    Los campos marcados con **TODO** están pendientes de confirmar. Se avisará a todos los equipos inscritos en cuanto se definan.
+
+!!! note "Orden y sistema de turnos"
+    El **orden de las pruebas se anunciará el día del torneo**. En principio, cada prueba tendrá **slots de 1-2 minutos** asignados aleatoriamente a cada equipo. Cada equipo dispondrá de un **comodín** que le permite "saltar" su turno e ir al final de la cola de esa prueba, ganando tiempo extra para ajustes de última hora (pendiente de confirmación).
+
 ---
 
-## 1. Sigue Líneas
+## 1. Siguelíneas
 
-El robot debe seguir un circuito marcado con cinta adhesiva, evitando obstáculos en el camino.
+**¿En qué consiste?** Tu robot deberá seguir un recorrido marcado en el suelo con cinta adhesiva, detectándola con su sensor de línea e intentando no perderse. Además, habrá obstáculos en el camino que el robot deberá esquivar sin tocarlos. ¡El más rápido gana!
 
 ### Especificaciones del circuito
 
 | Característica | Detalle |
 |----------------|---------|
-| **Ancho de la cinta adhesiva** | Por determinar |
-| **Color de la cinta** | Por determinar |
+| **Ancho de la cinta adhesiva** | TODO |
+| **Color de la cinta** | TODO |
 | **Longitud total del recorrido** | 4-5 metros |
 | **Número de obstáculos** | 2 |
 | **Dimensiones de los obstáculos** | Latas de 33 cl |
 | **Ubicación de obstáculos** | En tramos rectilíneos |
 | **Radio mínimo de curvas** | 5 centímetros |
-| **Cruces** | Por determinar |
+| **Cruces** | TODO |
 
 ### Reglas
 
 - **Objetivo**: Completar una vuelta completa en el menor tiempo posible
 - **Tiempo máximo**: 90 segundos
-- **Evasión de obstáculos**: El robot debe bordearlos por el exterior
+- **Evasión de obstáculos**: El robot debe bordearlos por el exterior sin tocarlos
 - **Penalizaciones**:
-    - Tocar un obstáculo: +5 segundos
+    - Tocar un obstáculo: +5 segundos al tiempo total
     - Tirar un obstáculo: Intento nulo
     - Salirse del recorrido y tardar más de 10 segundos en volver: Descalificación
     - Saltarse parte del recorrido: Descalificación
@@ -49,7 +55,7 @@ El robot debe seguir un circuito marcado con cinta adhesiva, evitando obstáculo
 
 ## 2. Limpieza
 
-El robot debe empujar y sacar del recinto el mayor número de objetos en el menor tiempo posible.
+**¿En qué consiste?** Dentro de un recinto cuadrado delimitado con cinta adhesiva se colocarán varios objetos. Tu robot deberá empujarlos y sacarlos todos fuera del recinto lo más rápido posible; como un robot aspiradora, pero a la inversa. ¡El que "limpie" más rápido gana!
 
 ### Especificaciones del recinto
 
@@ -57,7 +63,7 @@ El robot debe empujar y sacar del recinto el mayor número de objetos en el meno
 |----------------|---------|
 | **Forma del recinto** | Cuadrado |
 | **Dimensiones** | 1,5 x 1,5 metros |
-| **Delimitación** | Cinta adhesiva |
+| **Delimitación** | Cinta adhesiva en el suelo |
 | **Número de objetos** | 5 |
 | **Tipo de objetos** | Cilindros tipo lata de refresco (330ml) o cubos de espuma 5x5cm |
 
@@ -69,13 +75,13 @@ El robot debe empujar y sacar del recinto el mayor número de objetos en el meno
 
 ### Puntuación
 
-Mismo sistema que Sigue Líneas: 10, 8, 6, 5, 4, 3, 2, 1 puntos según la posición.
+Mismo sistema que Siguelíneas: 10, 8, 6, 5, 4, 3, 2, 1 puntos según la posición.
 
 ---
 
 ## 3. Sumo
 
-Los robots se enfrentan uno contra uno para empujar al rival fuera del círculo.
+**¿En qué consiste?** Dos robots se colocan dentro de un ring circular y se enfrentan uno contra uno. El objetivo es empujar al rival fuera del círculo, ¡como en el sumo japonés! Se compite en formato torneo por eliminación.
 
 ### Especificaciones del recinto
 
@@ -90,11 +96,12 @@ Los robots se enfrentan uno contra uno para empujar al rival fuera del círculo.
 
 - **Objetivo**: Sacar al robot rival del círculo
 - **Posición inicial**: Robots de espaldas a 20 cm de distancia
-- **Tiempo máximo por asalto**: Por determinar
+- **Tiempo máximo por asalto**: TODO
+- **Formato**: Eliminación directa (cuartos → semifinales → final)
 - **Restricciones**:
     - Prohibido levantar al rival
     - Prohibido romper o dañar al rival
-    - Obligatorio usar el parachoques estándar del kit
+    - Tendréis que usar un parachoques que os proporcionaermos para proteger los sensores. Habrá que montarlo en el robot!
 
 ### Puntuación por fases
 
@@ -104,12 +111,16 @@ Los robots se enfrentan uno contra uno para empujar al rival fuera del círculo.
 | **Subcampeón** | 8 |
 | **Eliminados en semifinales** | 6 |
 | **Eliminados en cuartos** | 3 |
+| **Eliminados en primera ronda** | 0 |
+
+!!! warning "Nota sobre eliminación temprana"
+    Los equipos eliminados en la primera ronda del torneo de sumo **no reciben puntos** en esta prueba. ¡Cada combate cuenta!
 
 ---
 
 ## 4. Aceleración
 
-El robot debe recorrer una distancia a máxima velocidad y frenar con precisión en una zona específica.
+**¿En qué consiste?** Tu robot sale a toda velocidad en línea recta, pero al final del recorrido hay una zona de frenado donde debe detenerse con la mayor precisión posible; como un frenado de F1. Si se pasa o se queda corto, ¡descalificación! Es una prueba simple que servirá de testing.
 
 ### Especificaciones del recorrido
 
@@ -130,20 +141,22 @@ El robot debe recorrer una distancia a máxima velocidad y frenar con precisión
 
 ### Puntuación
 
-Fórmula mixta:
+Fórmula mixta basada en dos factores:
 
-- **50% Tiempo récord**: Tiempo en llegar a la zona de frenado
-- **50% Precisión**: Distancia en centímetros desde el morro del robot hasta el centro ideal de la zona de frenado
+- **50% Tiempo**: Se rankean todos los equipos por tiempo de llegada a la zona de frenado (más rápido = mejor posición)
+- **50% Precisión**: Se rankean todos los equipos por distancia del morro del robot al centro de la zona de frenado (más cerca = mejor posición)
+
+La puntuación final de cada equipo se calcula como la media de sus posiciones en ambos rankings.
 
 ---
 
 ## 5. Desfile
 
-Los equipos deben demostrar su creatividad decorando y programando su robot para realizar una presentación autónoma.
+**¿En qué consiste?** ¡Aquí la creatividad es la protagonista! Cada equipo personaliza y decora su robot para hacer una "pasarela autónoma". Programad los LEDs, cread melodías con el buzzer, y añadid decoraciones físicas para impresionar al jurado. Es como un concurso de tuning, ¡pero de robots!
 
 ### Requisitos
 
-- **Decoraciones modulares**: Obligatorio usar velcro o encajes para quitar rápidamente las decoraciones antes de la prueba de Sumo
+- **Decoraciones modulares**: es importante que podáis **quitar las decoraciones rápidamente** antes de otra prueba (p.ej. Sumo, donde el peso importa), ya que en algunas estas no se permitirán!
 - **Movimiento autónomo**: El robot debe moverse de forma autónoma durante el desfile (no vale exponerlo quieto)
 
 ### Criterios de evaluación
@@ -151,8 +164,9 @@ Los equipos deben demostrar su creatividad decorando y programando su robot para
 Se evalúan los siguientes aspectos:
 
 - **Diseño físico**: Creatividad y estética de las decoraciones
-- **Uso de LEDs**: Aprovechamiento de las luces LED de la placa
-- **Uso del altavoz/zumbador**: Melodías o sonidos programados
+- **Uso de LEDs**: Aprovechamiento de los 2 LEDs RGB (NeoPixel) de la placa + los demás LEDs
+- **Uso del buzzer**: Melodías o tonos programados
+- **Coreografía**: Originalidad del movimiento del robot
 
 ### Método de puntuación
 
@@ -161,15 +175,8 @@ Se evalúan los siguientes aspectos:
 
 ---
 
-## Nota importante para las pruebas de Sumo y Desfile
-
-!!! warning "Decoraciones modulares"
-    Las decoraciones utilizadas en el desfile deben ser **fácilmente desmontables** (velcro, encajes) para poder retirarlas rápidamente antes de participar en la prueba de Sumo, donde el peso y la estabilidad son críticos.
-
----
-
 ## Clasificación final
 
-La puntuación total de cada equipo se calculará sumando los puntos obtenidos en las cinco pruebas. El equipo con mayor puntuación será el **ganador del Torneo Bocobot**.
+La puntuación total de cada equipo se calculará **sumando los puntos obtenidos en las cinco pruebas**. El equipo con mayor puntuación será el **ganador del Torneo Bocobot**. En caso de empate, se desempatará por la prueba de Siguelíneas (mejor tiempo).
 
-¡Buena suerte a todos los participantes!
+¡Buena suerte a todos los participantes! :mechanical_arm:

@@ -1,6 +1,6 @@
 # Guía del Robot
 
-Aquí tienes todos los recursos necesarios para conocer, montar y programar tu robot paso a paso.
+Aquí tienes todos los recursos necesarios para conocer, montar y programar tu robot paso a paso. 
 
 ## Descripción del BocoBot
 
@@ -10,7 +10,7 @@ El kit oficial que se utilizará en la competición es el **BocoBot**, un kit de
 
 A nivel de componentes, el kit incluye exactamente lo que necesitáis para afrontar las distintas pruebas del torneo. Para el desplazamiento, cuenta con **dos motores independientes** con sus respectivas ruedas y una **rueda loca de acero** en la parte inferior, lo que le permite girar sobre sí mismo. Cuenta también con un **sensor siguelíneas** y un **sensor de ultrasonidos** para medir distancias y evitar obstáculos.
 
-Para rematar, la placa base tiene **luces LED de colores**, **botones programables** y un **pequeño altavoz o zumbador**. Todo el sistema funciona con un portapilas estándar para cuatro pilas AA (también incluidas) e incluye el cable USB necesario para conectarlo al ordenador y cargar vuestro código.
+Para rematar, la placa base tiene **2 LEDs RGB (NeoPixel)**, **2 botones programables** y un **zumbador piezoeléctrico (buzzer)** con el que podréis generar melodías y tonos. Todo el sistema funciona con un portapilas estándar para cuatro pilas AA (también incluidas) e incluye el cable USB necesario para conectarlo al ordenador y cargar vuestro código.
 
 ![Componentes del kit BocoBot](./assets/bocobot_piezas.png)
 
@@ -34,7 +34,7 @@ Sigue paso a paso este vídeo en [:simple-youtube: YouTube](https://www.youtube.
 
 ### Conexión de cables
 
-A continuación puedes ver dónde conectar cada cable:
+A continuación puedes ver dónde conectar cada cable. Os recomendamos probar los componentes uno a uno primero, para ver que funcionan todos.
 
 ![Diagrama de conexiones](./assets/image.png)
 
@@ -87,7 +87,35 @@ En el repositorio oficial de [:simple-github: GitHub](https://github.com/CytronT
 - Uso del sensor siguelíneas
 - ¡Y más!
 
+### ¡Tu primer programa! (Hello World)
+
+Una vez instalado CircuitPython, prueba este código para verificar que todo funciona. Copia esto en `code.py`. Para usar la librería de neopixel, probablemente te la tengas que bajar (descargar y copiar al directorio `lib` de la unidad `CIRCUITPY`) de algún sitio como [el bundle de librerías de CircuitPython](https://circuitpython.org/libraries), o [usando pip](https://docs.circuitpython.org/projects/neopixel/en/latest/).
+
+```python
+import board
+import time
+import neopixel
+
+# Configura los 2 LEDs RGB neopixel del robot
+pixels = neopixel.NeoPixel(board.GP18, 2)
+
+# Alterna entre rojo, verde y azul
+colores = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]
+while True:
+    for color in colores:
+        pixels.fill(color)
+        time.sleep(0.5)
+```
+
+Si los LEDs del robot cambian de color, ¡todo está listo! :tada:
+
+!!! tip "¿No funciona?"
+    Asegúrate de que el archivo se llama exactamente `code.py` y está en la raíz de la unidad **CIRCUITPY**. Si los LEDs no reaccionan, comprueba que el pin es correcto consultando el [pinout de la Robo Pico](https://docs.google.com/document/d/1X67yKga7m5pugBcogww6pyR2YHXwRJL79_nNDLTYcKU/edit?tab=t.0).
+
 ### Recursos adicionales
 
 - [Documentación oficial de CircuitPython](https://docs.circuitpython.org/)
 - [Guía de CircuitPython para principiantes](https://learn.adafruit.com/welcome-to-circuitpython)
+- Ejemplos de uso, muchas cosas se os simplificarán si empezáis por aquí: [Ejemplos de uso](https://github.com/CytronTechnologies/Robo-Pico-Kit-CircuitPython?tab=readme-ov-file)
+- [Pinout y documentación de la Robo Pico](https://github.com/CytronTechnologies/MAKER-PI-PICO) y [Pinout de la Robo Pico](https://docs.google.com/document/d/1X67yKga7m5pugBcogww6pyR2YHXwRJL79_nNDLTYcKU/edit?tab=t.0)
+- Instalación de librerías: [Instalación de librerías](https://circuitpython.org/libraries)
