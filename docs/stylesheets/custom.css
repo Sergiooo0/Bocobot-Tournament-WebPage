@@ -3,6 +3,153 @@
   color: var(--md-primary-fg-color);
 }
 
+/* Info chips row */
+.info-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.chip {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.chip a {
+  text-decoration: none;
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+/* Challenge / test cards grid */
+.challenge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.challenge-card {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.challenge-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.challenge-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.4rem;
+}
+
+.challenge-desc {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.4;
+}
+
+/* Robot preview section */
+.robot-preview {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.robot-preview-text {
+  flex: 1;
+}
+
+.robot-preview-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.robot-preview-img {
+  flex: 0 0 280px;
+}
+
+.robot-preview-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .robot-preview {
+    flex-direction: column-reverse;
+  }
+
+  .robot-preview-img {
+    flex: none;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Organizers grid */
+.organizers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 180px));
+  gap: 1rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.organizer-card {
+  text-align: center;
+  padding: 1rem 0.75rem;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--md-default-fg-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+}
+
+.organizer-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.organizer-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: 2px solid var(--md-primary-fg-color);
+}
+
+.organizer-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.15rem;
+}
+
+.organizer-links {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
 /* Cards in grid */
 .card-grid {
   display: grid;
@@ -17,10 +164,13 @@
   padding: 1.5rem;
   text-decoration: none;
   border: 1px solid var(--md-default-fg-color--lightest);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
 }
 
 .card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .card:hover .card-title {
@@ -37,6 +187,7 @@
 .card-description {
   font-size: 0.9rem;
   color: var(--md-default-fg-color--light);
+  margin-top: 0.3rem;
 }
 
 /* Sponsors grid */
@@ -54,7 +205,8 @@
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background: white;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 12px;
   min-height: 120px;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -74,7 +226,8 @@
 /* Responsive video */
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%;
+  /* 16:9 ratio */
   height: 0;
   margin: 1.5rem 0;
 }
@@ -87,7 +240,28 @@
   height: 100%;
 }
 
-/* Images with rounded borders */
+/* Images with rounded borders and size constraint */
 .md-content img {
   border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Guide page images: smaller */
+.md-content img[alt="Imagen del kit BocoBot"],
+.md-content img[alt="Componentes del kit BocoBot"],
+.md-content img[alt="Diagrama de conexiones"] {
+  max-width: 500px;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* MkDocs Material button enhancements */
+.md-button {
+  border-radius: 8px !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
