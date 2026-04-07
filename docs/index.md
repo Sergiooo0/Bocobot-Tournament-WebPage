@@ -2,9 +2,18 @@
 hide:
   - toc
   - navigation
+meta:
+  - property: "og:title"
+    content: "Torneo de Robótica Bocobot"
+  - property: "og:description"
+    content: "¡Monta, programa y compite con tu propio robot! ESEI Ourense, 27 de abril."
+  - property: "og:image"
+    content: "https://sergiooo0.github.io/Bocobot-Tournament-WebPage/assets/bocobot.png"
+  - property: "og:type"
+    content: "website"
 ---
 
-# Torneo de Robótica Bocobot :robot:
+# Torneo de Robótica Bocobot 🤖
 
 ### ¿Te atreves a montar, programar y competir con tu propio robot?
 
@@ -93,30 +102,30 @@ Competiréis en **5 pruebas** diferentes. Aquí va un aperitivo:
 
 ---
 
-## Premios :trophy:
+## Premios 🏆
 
 ¡Habrá premios para los mejores equipos!
 
-- :1st_place_medal: **1º, 2º y 3º puesto**: Trofeos impresos en 3D
-- :gift: **Premios de patrocinadores**: Se anunciarán el día del torneo
-- :star: **Todos los participantes** recibirán un detalle de participación
+- 🥇 **1º, 2º y 3º puesto**: Trofeos impresos en 3D
+- 🎁 **Premios de patrocinadores**: Se anunciarán el día del torneo
+- ⭐ **Todos los participantes** recibirán un detalle de participación
 
 ---
 
 <div class="card-grid">
 
 <a href="./normas/" class="card">
-  <div class="card-title">:scroll: Normas del Torneo</div>
+  <div class="card-title">📜 Normas del Torneo</div>
   <div class="card-description">Lee las reglas antes de participar</div>
 </a>
 
 <a href="./guia-robot/" class="card">
-  <div class="card-title">:wrench: Guía del Robot</div>
+  <div class="card-title">🔧 Guía del Robot</div>
   <div class="card-description">Montaje, programación y configuración completa</div>
 </a>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScpvvbQE-pS9H050xOW6uJyefBrO_nOn3Itc3BrAmD3Ni02DA/viewform" class="card" target="_blank">
-  <div class="card-title">:pencil: Inscripción</div>
+  <div class="card-title">✏️ Inscripción</div>
   <div class="card-description">Registra a tu equipo (máx. 8 equipos)</div>
 </a>
 
@@ -124,38 +133,6 @@ Competiréis en **5 pruebas** diferentes. Aquí va un aperitivo:
 
 ???+ warning "¡Plazas limitadas!"
     Hay un límite de **8 equipos** para participar, así que asegúrate de inscribirte lo antes posible.
-
----
-
-## Organizadores
-
-<div class="organizers-grid">
-
-<a href="https://github.com/Sergiooo0" class="organizer-card" target="_blank">
-  <img src="https://github.com/Sergiooo0.png" alt="Sergio" class="organizer-avatar">
-  <div class="organizer-name">Sergio</div>
-  <div class="organizer-links">
-    <span>:simple-github: GitHub</span>
-  </div>
-</a>
-
-<a href="https://github.com/usbt0p" class="organizer-card" target="_blank">
-  <img src="https://github.com/usbt0p.png" alt="Lucas" class="organizer-avatar">
-  <div class="organizer-name">Lucas</div>
-  <div class="organizer-links">
-    <span>:simple-github: GitHub</span>
-  </div>
-</a>
-
-<div class="organizer-card">
-  <img src="https://ui-avatars.com/api/?name=Carlos&background=6366f1&color=fff&size=128&rounded=true" alt="Carlos" class="organizer-avatar">
-  <div class="organizer-name">Carlos</div>
-  <div class="organizer-links">
-    <span style="color: var(--md-default-fg-color--light);">Próximamente</span>
-  </div>
-</div>
-
-</div>
 
 ---
 
@@ -176,5 +153,31 @@ Agradecemos el apoyo de las siguientes empresas:
 <a href="https://auria.gal" class="sponsor-card" target="_blank">
   <img src="./assets/auria.png" alt="Auria">
 </a>
+
+</div>
+
+---
+
+## Organizadores
+
+<div class="organizers-grid">
+
+<a href="https://github.com/Sergiooo0" class="organizer-card" target="_blank">
+  <img src="https://github.com/Sergiooo0.png" alt="Sergio" class="organizer-avatar">
+  <div class="organizer-name">Sergio</div>
+  <div class="organizer-links">GitHub</div>
+</a>
+
+<a href="https://github.com/usbt0p" class="organizer-card" target="_blank">
+  <img src="https://github.com/usbt0p.png" alt="Lucas" class="organizer-avatar">
+  <div class="organizer-name">Lucas</div>
+  <div class="organizer-links">GitHub</div>
+</a>
+
+<div class="organizer-card">
+  <img src="https://ui-avatars.com/api/?name=Carlos&background=6366f1&color=fff&size=128&rounded=true" alt="Carlos" class="organizer-avatar">
+  <div class="organizer-name">Carlos</div>
+  <div class="organizer-links" style="color: var(--md-default-fg-color--light);">Próximamente</div>
+</div>
 
 </div>
