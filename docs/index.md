@@ -8,7 +8,7 @@ meta:
   - property: "og:description"
     content: "¡Monta, programa y compite con tu propio robot! ESEI Ourense, 27 de abril."
   - property: "og:image"
-    content: "./assets/banner.png"
+    content: "https://sergiooo0.github.io/Bocobot-Tournament-WebPage/assets/banner.png"
   - property: "og:type"
     content: "website"
 ---
@@ -24,7 +24,7 @@ meta:
 
 ### ¿Te atreves a montar, programar y competir con tu propio robot?
 
-Desde la asignatura de Robótica de 4º de IA en la ESEI organizamos el **primer Torneo Bocobot**: una competición amistosa donde cada equipo recibe un kit de robótica, lo monta, lo programa y compite en distintas pruebas. **No necesitas experiencia previa**; te proporcionamos todo lo necesario, incluyendo guías y apoyo.
+Desde la asignatura de Robótica de 4º de IA en la ESEI, y junto al Google Developer Group de Ourense, organizamos el **primer Torneo De Robótica de la ESEI**: una competición amistosa donde cada equipo recibe un kit de robótica, lo monta, lo programa y compite en distintas pruebas. **No necesitas experiencia previa**; te proporcionamos todo lo necesario, incluyendo guías y apoyo.
 
 <div class="info-chips">
   <div class="chip">📅 <strong>27 de abril</strong> por la tarde</div>
