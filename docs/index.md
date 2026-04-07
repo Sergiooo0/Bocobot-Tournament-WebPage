@@ -13,7 +13,14 @@ meta:
     content: "website"
 ---
 
-# Torneo de Robótica Bocobot 🤖
+<div style="text-align: center; margin: 2em 0;" markdown="1">
+
+# ESEI Bocobot Tournament :robot:
+
+<p style="font-size: 1.1em; color: #888; margin-top: -0.5em;">Edición 2025-2026</p>
+
+</div>
+
 
 ### ¿Te atreves a montar, programar y competir con tu propio robot?
 
