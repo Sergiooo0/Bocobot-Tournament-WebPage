@@ -2,15 +2,6 @@
 hide:
   - toc
   - navigation
-meta:
-  - property: "og:title"
-    content: "Torneo de Robótica Bocobot"
-  - property: "og:description"
-    content: "¡Monta, programa y compite con tu propio robot! ESEI Ourense, 27 de abril."
-  - property: "og:image"
-    content: "https://sergiooo0.github.io/Bocobot-Tournament-WebPage/assets/banner.png"
-  - property: "og:type"
-    content: "website"
 ---
 
 <div style="text-align: center; margin: 2em 0;" markdown="1">

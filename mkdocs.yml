@@ -8,6 +8,7 @@ repo_name: Bocobot Tournament WebPage
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: es
 
   features:
