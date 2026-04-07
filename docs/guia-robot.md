@@ -78,6 +78,25 @@ Para programar el robot:
 !!! tip "Consejo"
     El archivo principal debe llamarse **`code.py`** para que CircuitPython lo ejecute automáticamente al iniciar.
 
+### Consejo de desarrollo: no programéis directamente en la Pico
+
+!!! warning "Importante"
+    **No desarrolléis directamente sobre la unidad CIRCUITPY.** Editar archivos directamente en la Pico puede causar problemas de corrupción de archivos, bajo rendimiento y falta de espacio. Además, no podréis usar control de versiones (Git).
+
+**Lo recomendable** es trabajar en una carpeta local de vuestro ordenador y sincronizar los archivos a la Pico cuando queráis probar. Podéis hacer esto con un script simple de bash:
+
+```bash
+#!/bin/bash
+# deploy.sh — Sincroniza tu proyecto local con la Pico
+# Ajusta la ruta de destino según tu sistema
+rsync -av --delete --exclude='.git' ./ /media/$USER/CIRCUITPY/
+```
+
+Guardadlo como `deploy.sh`, dadle permisos de ejecución (`chmod +x deploy.sh`) y ejecutadlo cada vez que queráis actualizar el código en la Pico.
+
+!!! tip "Consola serial para depuración"
+    Podéis abrir una terminal serial para ver los `print()` de vuestro código y depurar errores. En Linux: `picocom /dev/ttyACM0` (ajustad la ruta si es necesario). Para salir: `Ctrl+A` seguido de `q`.
+
 ### Ejemplos de código
 
 En el repositorio oficial de [:simple-github: GitHub](https://github.com/CytronTechnologies/Robo-Pico-Kit-CircuitPython){:target="\_blank"} encontrarás ejemplos para:
