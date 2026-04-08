@@ -172,10 +172,10 @@ Agradecemos el apoyo de las siguientes empresas:
   <div class="organizer-links">GitHub</div>
 </a>
 
-<div class="organizer-card">
-  <img src="https://ui-avatars.com/api/?name=Carlos&background=6366f1&color=fff&size=128&rounded=true" alt="Carlos" class="organizer-avatar">
+<a href="https://github.com/FuriusDraco" class="organizer-card" target="_blank">
+  <img src="https://github.com/FuriusDraco.png" alt="Carlos" class="organizer-avatar">
   <div class="organizer-name">Carlos</div>
-  <div class="organizer-links" style="color: var(--md-default-fg-color--light);">Próximamente</div>
-</div>
+  <div class="organizer-links">GitHub</div>
+</a>
 
 </div>

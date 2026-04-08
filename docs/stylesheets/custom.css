@@ -135,6 +135,9 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.organizer-card:hover .organizer-name {
+  color: var(--md-accent-fg-color);
+}
 .organizer-avatar {
   width: 64px;
   height: 64px;

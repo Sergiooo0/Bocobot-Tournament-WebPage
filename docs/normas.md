@@ -107,10 +107,9 @@ Mismo sistema que Siguelíneas: 10, 8, 6, 5, 4, 3, 2, 1 puntos según la posici�
 
 | Fase | Puntos |
 |------|--------|
-| **Ganador** | 10 |
+| **Ganador** | 12 |
 | **Subcampeón** | 8 |
-| **Eliminados en semifinales** | 6 |
-| **Eliminados en cuartos** | 3 |
+| **Eliminados en semifinales** | 5 |
 | **Eliminados en primera ronda** | 0 |
 
 !!! warning "Nota sobre eliminación temprana"
