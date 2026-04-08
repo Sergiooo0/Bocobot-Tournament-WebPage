@@ -135,15 +135,16 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.organizer-card:hover .organizer-name {
-  color: var(--md-accent-fg-color);
-}
 .organizer-avatar {
   width: 64px;
   height: 64px;
   border-radius: 50%;
   margin-bottom: 0.5rem;
-  border: 2px solid var(--md-primary-fg-color);
+  border: 3px solid var(--md-primary-fg-color);
+}
+
+.organizer-card:hover .organizer-avatar{
+  border-color: var(--md-accent-fg-color);
 }
 
 .organizer-name {
@@ -151,6 +152,10 @@
   font-weight: 700;
   color: var(--md-primary-fg-color);
   margin-bottom: 0.15rem;
+}
+
+.organizer-card:hover .organizer-name {
+  color: var(--md-accent-fg-color);
 }
 
 .organizer-links {
