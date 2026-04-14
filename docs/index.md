@@ -20,7 +20,7 @@ hide:
 Desde la asignatura de Robótica de 4º de IA en la ESEI, y junto al Google Developer Group de Ourense, organizamos el **primer Torneo De Robótica de la ESEI**: una competición amistosa donde cada equipo recibe un kit de robótica, lo monta, lo programa y compite en distintas pruebas. **No necesitas experiencia previa**; te proporcionamos todo lo necesario, incluyendo guías y apoyo.
 
 <div class="info-chips">
-  <div class="chip">📅 <strong>27 de abril</strong> por la tarde</div>
+  <div class="chip">📅 <strong>27 de abril</strong> a las 16:00</div>
   <div class="chip">📍 Hall de la <a href="https://esei.uvigo.es/">ESEI</a> (Ourense)</div>
   <div class="chip">👥 Equipos de 1 a 4 personas</div>
   <div class="chip">🏆 Trofeos impresos en 3D + premios de patrocinadores</div>
