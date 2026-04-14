@@ -4,12 +4,14 @@ hide:
   - navigation
 ---
 
-<div style="text-align: center; margin: 2em 0;" markdown="1">
-
-# ESEI Bocobot Tournament :robot:
-
-<p style="font-size: 1.1em; color: #888; margin-top: -0.5em;">Edición 2025-2026</p>
-
+<div class="hero-header">
+  <div class="hero-title">
+    <h1>ESEI Bocobot Tournament</h1>
+    <p class="hero-subtitle">Edición 2025-2026</p>
+  </div>
+  <figure class="promo-badge">
+    <img src="./assets/20260427%20-%20BWA%20-%20ThumbnailCircle%20-%20Bocobot%20Tournament.png" alt="Imagen promocional circular del Bocobot Tournament">
+  </figure>
 </div>
 
 
@@ -144,7 +146,7 @@ Agradecemos el apoyo de las siguientes empresas:
   <img src="./assets/binarial.png" alt="Binarial">
 </a>
 
-<a href="https://gdg.community.dev/gdg-ourense/" class="sponsor-card" target="_blank">
+<a href="https://gdg.community.dev/events/details/google-gdg-ourense-presents-bocobot-tournament-built-with-ai-2026/" class="sponsor-card" target="_blank">
   <img src="./assets/gdg.png" alt="GDG Ourense">
 </a>
 

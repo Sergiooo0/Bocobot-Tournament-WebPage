@@ -3,6 +3,43 @@
   color: var(--md-primary-fg-color);
 }
 
+/* Home hero header */
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2em 0;
+}
+
+.hero-title {
+  text-align: left;
+}
+
+.hero-title h1 {
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 1.1em;
+  color: #888;
+  margin: 0.4rem 0 0;
+}
+
+/* Home hero promo badge */
+.promo-badge {
+  margin: 0;
+  text-align: center;
+}
+
+.promo-badge img {
+  width: min(230px, 32vw);
+  height: auto;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+
 /* Info chips row */
 .info-chips {
   display: flex;
@@ -17,7 +54,7 @@
   border-radius: 999px;
   padding: 0.5rem 1.2rem;
   font-size: 0.95rem;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .chip a {
@@ -29,6 +66,22 @@
 
 .chip a:hover {
   color: var(--md-accent-fg-color);
+}
+
+@media (max-width: 900px) {
+  .hero-header {
+    flex-direction: column;
+    gap: 0.8rem;
+    text-align: center;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .promo-badge img {
+    width: min(240px, 70vw);
+  }
 }
 
 /* Challenge / test cards grid */
