@@ -6,7 +6,7 @@ hide:
 
 <div class="hero-header">
   <div class="hero-title">
-    <h1>ESEI Bocobot Tournament</h1>
+    <h1>ESEI Robotics Tournament</h1>
     <p class="hero-subtitle">Edición 2025-2026</p>
   </div>
   <figure class="promo-badge">
