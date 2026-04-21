@@ -62,7 +62,7 @@ El torneo consta de **5 pruebas diferentes** donde cada equipo competirá con su
 | Característica | Detalle |
 |----------------|---------|
 | **Forma del recinto** | Cuadrado |
-| **Dimensiones** | 1,5 x 1,5 metros |
+| **Dimensiones** | 1,2 x 1,2 metros |
 | **Delimitación** | Cinta adhesiva en el suelo |
 | **Número de objetos** | 5 |
 | **Tipo de objetos** | Cilindros tipo lata de refresco (330ml) o cubos de espuma 5x5cm |
@@ -125,9 +125,9 @@ Mismo sistema que Siguelíneas: 10, 8, 6, 5, 4, 3, 2, 1 puntos según la posici�
 
 | Característica | Detalle |
 |----------------|---------|
-| **Longitud del recorrido** | 4 metros |
-| **Zona de frenado** | Últimos 50 cm |
-| **Dimensiones zona de frenado** | 40 cm de ancho x 50 cm de largo, marcada con cinta adhesiva |
+| **Longitud del recorrido** | 2 metros |
+| **Zona de frenado** | Últimos 40 cm |
+| **Dimensiones zona de frenado** | 30 cm de ancho x 40 cm de largo, marcada con cinta adhesiva |
 | **Marcado** | Línea en el centro del recinto |
 | **Pared de poliespán** | Colocada al final del recinto de frenado |
 
