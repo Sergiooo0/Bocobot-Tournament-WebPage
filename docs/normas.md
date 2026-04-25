@@ -18,14 +18,14 @@ El torneo consta de **5 pruebas diferentes** donde cada equipo competirá con su
 
 | Característica | Detalle |
 |----------------|---------|
-| **Ancho de la cinta adhesiva** | TODO |
-| **Color de la cinta** | TODO |
+| **Ancho de la cinta adhesiva** | 17 mm |
+| **Color de la cinta** | Negra |
 | **Longitud total del recorrido** | 4-5 metros |
 | **Número de obstáculos** | 2 |
 | **Dimensiones de los obstáculos** | Latas de 33 cl |
 | **Ubicación de obstáculos** | En tramos rectilíneos |
 | **Radio mínimo de curvas** | 5 centímetros |
-| **Cruces** | TODO |
+| **Cruces** | No |
 
 ### Reglas
 
@@ -101,7 +101,7 @@ Mismo sistema que Siguelíneas: 10, 8, 6, 5, 4, 3, 2, 1 puntos según la posici�
 - **Restricciones**:
     - Prohibido levantar al rival
     - Prohibido romper o dañar al rival
-    - Tendréis que usar un parachoques que os proporcionaermos para proteger los sensores. Habrá que montarlo en el robot!
+    - Tendréis que usar un parachoques que os proporcionaermos para proteger los sensores.
 
 ### Puntuación por fases
 
