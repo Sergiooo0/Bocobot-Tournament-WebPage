@@ -288,6 +288,10 @@
   object-fit: contain;
 }
 
+.sponsor-card img.sponsor-idtia {
+  max-height: 140px;
+}
+
 /* Responsive video */
 .video-container {
   position: relative;

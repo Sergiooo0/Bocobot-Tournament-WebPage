@@ -154,6 +154,10 @@ Agradecemos el apoyo de las siguientes empresas:
   <img src="./assets/auria.png" alt="Auria">
 </a>
 
+<a href="https://www.instagram.com/idtiauvigo/" class="sponsor-card" target="_blank">
+  <img src="./assets/logo_idtia.jpeg" alt="Idtia" class="sponsor-idtia">
+</a>
+
 </div>
 
 ---
